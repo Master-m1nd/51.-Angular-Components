@@ -1,0 +1,61 @@
+.body{
+    max-width: 500px;
+    height: 150px;
+    padding: 10px 20px 5px 20px;
+    margin: 0 auto 30px auto;
+    background-color: aliceblue;
+    border: 3px solid #ccc;
+}
+h2 {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 110px;
+}
+
+.status{
+    position: absolute;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+p{
+    font-style: italic;
+}
+
+.picture{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    }
+}
+
+.remove-btn {
+    position: absolute;
+    background-color: #e1821d;
+    color: rgb(25, 25, 29);
+    font-size: 16px;
+    padding: 4px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    box-shadow: 1.5px 0px 0.75px 1.75px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    &:active{
+        box-shadow: 0.75px 0px 0.37px 0.875px rgba(0,0,0,0.75);
+    }
+    &:not(:last-child){
+    margin-right: 12px;
+    }
+    width: 120px;
+    margin-top: 120px;
+    margin-left: 280px;
+}

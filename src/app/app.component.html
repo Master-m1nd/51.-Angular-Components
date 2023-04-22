@@ -1,0 +1,4 @@
+<main>
+  <app-add-post (onUser)="addUser($event)"></app-add-post>
+  <app-post [name]="user.name" [status]="user.status" [link]="user.link" (onRemoveUser)="resetUser()"></app-post>
+</main>
